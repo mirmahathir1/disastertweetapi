@@ -1,0 +1,25 @@
+{
+  "name": "webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
